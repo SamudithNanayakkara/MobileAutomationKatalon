@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startExistingApplication('my.com.klk.operations')
 
 Mobile.verifyElementText(findTestObject('Object Repository/KLK OC change OR/android.widget.TextView - LADANG LEKIR'), 'LADANG LEKIR')
-
+Mobile.takeScreenshot()
 Mobile.verifyElementVisible(findTestObject('Object Repository/KLK OC change OR/android.widget.ImageButton'), 0)
 
 Mobile.tap(findTestObject('KLK OC change OR/android.widget.ImageButton'), 0)
