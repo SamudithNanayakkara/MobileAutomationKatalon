@@ -27,10 +27,10 @@ Mobile.tap(findTestObject('KLK OC change OR/android.widget.ImageButton'), 0)
 
 Mobile.verifyElementText(findTestObject('Object Repository/KLK OC change OR/android.widget.TextView - LADANG LEKIR (1)'), 
     'LADANG LEKIR')
-Mobile.takeScreenshot()
+
 Mobile.tap(findTestObject('Object Repository/KLK OC change OR/android.widget.Button - OKAY'), 0)
 Mobile.takeScreenshot()
 Mobile.verifyElementText(findTestObject('Object Repository/KLK OC change OR/android.widget.TextView - Home'), 'Home')
-Mobile.takeScreenshot()
+
 Mobile.closeApplication()
 
