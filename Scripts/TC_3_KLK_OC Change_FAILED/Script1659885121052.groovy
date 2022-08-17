@@ -24,7 +24,7 @@ Mobile.takeScreenshot()
 Mobile.verifyElementVisible(findTestObject('Object Repository/KLK OC change OR/android.widget.ImageButton'), 0)
 
 Mobile.tap(findTestObject('KLK OC change OR/android.widget.ImageButton'), 0)
-
+Mobile.takeScreenshot()
 Mobile.verifyElementText(findTestObject('Object Repository/KLK OC change OR/android.widget.TextView - LADANG LEKIR (1)'), 
     'LADANG LEKIR')
 
